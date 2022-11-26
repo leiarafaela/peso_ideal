@@ -16,13 +16,13 @@ class CalcIMC extends StatelessWidget {
         colorScheme: ColorScheme.fromSwatch(
           primarySwatch: Colors.blue,
         ).copyWith(
-          primary: Colors.blueAccent[700],
-          secondary: Colors.blueAccent[700],
+          primary: const Color(0xFF1963D1),
+          secondary: const Color(0xFF1963D1),
         ),
-        scaffoldBackgroundColor: Colors.blueAccent[700],
+        scaffoldBackgroundColor: const Color(0xFF1963D1),
         textTheme: const TextTheme(
           bodyText2: TextStyle(
-            color: Colors.white,
+            color: Colors.black,
           ),
         ),
         elevatedButtonTheme: ElevatedButtonThemeData(
